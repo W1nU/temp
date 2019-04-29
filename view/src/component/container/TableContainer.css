@@ -1,0 +1,10 @@
+.table_container {
+    padding: 10px;
+    margin: 10px;
+    background: rgb(249,249,249);
+    max-width: 800px;
+}
+
+.header_box {
+    margin-bottom: 20px;
+}

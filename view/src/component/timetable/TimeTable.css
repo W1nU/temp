@@ -1,0 +1,77 @@
+thead {
+    border-top: 1px solid #cfd1d3; 
+}
+
+td {
+    text-align: center;
+    position: relative;
+}
+
+.table_header {
+    text-align: center;
+    padding: 10px;
+}
+
+.lecture_box {
+    position: absolute;
+    top: -1px;
+    width: 100%;
+}
+
+.table_hour {
+    vertical-align: top;
+    text-align: center;
+    border-top: 1px solid #cfd1d3;
+    border-bottom: 1px solid #cfd1d3;
+    padding-top: 5px;
+}
+
+.table_row > td {
+    border-top: 1px dashed #dddddd;
+    border-bottom: 1px dashed #dddddd;
+    height: 20px;
+}
+
+.lecture_box {
+    vertical-align: middle;
+}
+
+.timetable {
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    width: 95%;    
+    line-height: 18px;
+    color: grey;
+}
+
+.lecture_box {
+    font-size: 13px;
+    color: darkgrey;
+    position: absolute;
+    width: 100%;
+    top: -1px;
+}
+
+.inner_box {
+    position: relative;
+    margin: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.7rem;
+    line-height: 1rem;
+    color: slategrey;
+}
+
+.timetable_footer {
+    height: 40px;
+    border-top: 1px solid #cfd1d3;
+    border-bottom:  1px solid #cfd1d3;
+}
+
+.timetable_footer > td {
+    text-align: right;
+}
+
+#hour_row {
+    border-top: 1px solid #cfd1d3;
+}
